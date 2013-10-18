@@ -1,6 +1,6 @@
 RTE {
 	default {
-		contentCSS = EXT:demo/Resources/Public/Css/rte.css
+		contentCSS = EXT:rtedemo/Resources/Public/Css/rte.css
 
 		proc {
 			allowedClasses := addToList(label)
@@ -26,7 +26,7 @@ RTE {
 
 	classes {
 		author {
-			name = LLL:EXT:demo/Resources/Private/Language/Rte.xlf:author
+			name = LLL:EXT:rtedemo/Resources/Private/Language/Rte.xlf:author
 			value = color: #cecece;
 		}
 	}
